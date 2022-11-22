@@ -224,7 +224,7 @@ export default class FastBigInt {
 
 // The maximum exponent the FastBigInt class supports. You can extend this when needed
 Object.defineProperty(FastBigInt, 'maxExponent', {
-	value: 5,
+	value: 13,
 	writable : false,
 	enumerable : true,
 	configurable : false
@@ -232,7 +232,7 @@ Object.defineProperty(FastBigInt, 'maxExponent', {
 
 // The exponent shorthands the FastBigInt class supports. You can extend this when needed
 Object.defineProperty(FastBigInt, 'exponentShorthands', {
-	value: Object.freeze(['', 'K', 'M', 'B', 't', 'q']),
+	value: Object.freeze(['', 'K', 'M', 'B', 't', 'q', 'Q', 's', 'S', 'o', 'n', 'd', 'U', 'D']),
 	writable : false,
 	enumerable : true,
 	configurable : false
